@@ -11,10 +11,10 @@
         <h1>Formulario de registro</h1>
         <form action="https://c.tenor.com/LjwdG-fXnz0AAAAd/baldu-meme.gif">
             <label for="nombre">Nombre:</label>
-            <input type="text" name="nombre" id="nombre">
+            <input type="text" name="nombre" required id="nombre">
             <br><br>    <!--  -->
             <label for="apellido">Apellido:</label>
-            <input type="text" name="apellido" id="apellido">
+            <input type="text" name="apellido" required id="apellido">
             <br><br>    <!--  -->
             <label>Modalidad de cursada:</label>
             <label for="on-demand">On-demand</label>
@@ -23,15 +23,15 @@
             <input type="radio" name="en-vivo" id="en-vivo">
             <br><br>    <!--  -->
             <label for="correo">correo:</label>
-            <input type="text" name="correo" id="correo">
+            <input type="email" name="correo" required id="correo">
             <br><br>    <!--  -->
             <input type="checkbox" name="op1" id="op1">
             <label for="op1">Deseo recibir informacion sobre nuevos posteos en la plataforma de Nucba</label>
             <br><br>    <!--  -->
-            <input type="checkbox" name="op2" id="op2">
+            <input type="checkbox" name="op2" required id="op2">
             <label for="op2">Declaro que lei los terminos y condiciones y estoy listo para convertirme en desarrollador web Full Stack</label>
             <br><br>    <!--  -->
-            <button>Enviar</button>
+            <input type="submit" value="Enviar"></input>
         </form>
     </main>
 </body>
